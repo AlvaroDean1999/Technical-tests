@@ -1,0 +1,159 @@
+:root{
+    --fondo: #ecf2f7;
+    --rosa: #e17171;
+    --letraOscura: #7c7e8a;
+    --letraClara: #fff; 
+}
+
+
+html{
+    font-size: 10px;
+}
+
+
+body{
+    background-color: var(--fondo);
+    font-family: 'Montserrat';
+}
+
+.plansContainer{
+    max-width: 60%;
+    margin: 0 auto;
+}
+
+.tittle__plansContainer{
+    margin-top: 10%;
+}
+
+.h1__tittle{
+    text-align: center;
+    color: var(--rosa);
+}
+
+.plans__plansContainer{
+    margin-top: 3%;
+    display: flex; 
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;   
+}
+
+.basicPlan__plans,
+.premiumPlan__plans{
+    background-color: var(--letraClara);
+    color: var(--letraOscura);
+    padding: 3%;
+    border-radius: 10px;
+    width: 33%;
+    height: 25rem;
+}
+
+.estandarPlan__plans{
+    background-color: var(--rosa);
+    color: var(--letraClara);
+    padding: 3%;
+    border-radius: 10px;
+    width: 33%;
+    height: 30rem;
+}
+
+.tittleContainer{
+    width: 100%;
+    height: 2rem;
+}
+
+.tittlePlan__tittleContainer{
+    font-size: 1.2rem;
+    text-align: center;
+}
+
+.priceContainer{
+    width: 100%;
+    padding: 1% 0; 
+    margin-top: -30px;
+    
+}
+
+.price__princeContainer{
+    font-size: 4rem;
+    text-align: center;
+}
+
+.staticsContainer{
+    width: 100%;
+    height: auto;
+    margin-top: -20px;
+}
+
+.static__staticsContainer{
+    text-align: center;
+    font-weight: 500;
+    margin-bottom: 20px;
+    font-size: 1.2rem;
+}
+
+.estandarPlan__plans p{
+    margin-bottom: 2.8rem;
+}
+
+.buyButton{
+    width: 100%;
+}
+
+.buy__buyButton{
+    width: 80%;
+    align-items: center;
+    height: 3rem;
+    border-radius: 5px;
+    border: none;
+    cursor: pointer;
+    margin-left: 10%;
+    font-size: 1.2rem;
+}
+
+.buy__buyButton:hover{
+    transform: scale(1.1);
+}
+
+.basicPlan__plans button,
+.premiumPlan__plans button{
+    color: var(--letraClara);
+    background-color: var(--rosa);
+}
+
+.estandarPlan__plans button{
+    color: var(--rosa);
+    background-color: var(--letraClara);
+    margin-top: 1.7rem;
+}
+
+
+@media screen and (max-width: 768px) {
+
+    body{
+        margin: 0 auto;
+    }
+
+    .plansContainer {
+        max-width: 90%;
+        align-items: center;
+        margin-left: 2%;
+    }
+
+    .plans__plansContainer {
+        flex-direction: column; /* Cambia la disposición de los planes a una columna */
+        align-items: stretch; /* Estira los elementos a lo ancho del contenedor */
+    }
+
+    .basicPlan__plans,
+    .premiumPlan__plans,
+    .estandarPlan__plans {
+        width: 100%; /* Hace que los planes ocupen todo el ancho */
+        margin-bottom: 20px; /* Agrega espacio entre los planes */
+    }
+
+    .tittle__plansContainer{
+        margin-left: 6%;
+    }
+}
+

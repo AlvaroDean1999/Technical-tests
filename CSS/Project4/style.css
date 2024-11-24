@@ -1,0 +1,150 @@
+
+
+html{
+    font-size: 10px;
+}
+
+body{
+    font-size: 1.6rem;
+    font-family: 'Montserrat';
+    background-color: #2A4D65;
+}
+
+.main{
+    max-width: 40rem;
+    margin: 0 auto; 
+}
+
+.tittle__main{
+    margin-top: 30%;
+}
+
+.tittle__main h1{
+    font-size: 1.6rem;
+    color: white;
+    opacity: 0.7;
+    text-align: center;
+}
+
+.mail__main{
+    width: 100%;
+    height: 50px;
+    background-color: white;
+    display: flex;
+    justify-content: space-between; 
+    align-items: center;
+}
+
+.mail__mail{
+    color: black;
+    font-weight: 600; 
+    align-items: center;
+    font-size: 2rem; 
+    margin-left: 12px;
+}
+
+.copy__mail{
+    width: 25px;
+    height: 25px;
+    margin-right: 12px;
+    cursor: pointer;
+}
+
+.copy__mail:hover{
+    transform: scale(1.1);
+}
+
+.form__main{
+    background-color: white;
+    padding: 12px; 
+    margin-top: 5%;
+}
+
+.tittle__slider{
+    display: flex;
+    justify-content: space-between;
+}
+
+.long__tittle{
+    color: black;
+    font-size: 1.4rem;
+    font-weight: 500;
+}
+
+.number__tittle{
+    color: #1a5cac;
+    font-weight: 700;
+    opacity: 0.8;
+}
+
+.range__form {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 100%;
+    height: 0.8rem;
+    background: #1c1a1a; 
+    outline: none;
+    border-radius: 0.2rem;  
+}
+
+.range__form::-webkit-slider-thumb{
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none;
+    width: 2rem;
+    height: 2rem;
+    background: black;
+    border-radius: 50%;
+}
+
+.checkbox__form{
+    display: flex;
+    margin-top: 20px;
+   flex-direction: column;
+}
+
+.input_checkbox{
+    margin-bottom: 12px;
+    color: black;
+    border-radius: 0;
+}
+
+.label_checkbox{
+    font-size: 1.2rem;
+}
+
+.control__form{
+    background-color: #1c1a1a;
+    width: 100%;
+    height: 40px;
+    border: none;
+    display: flex;
+    margin-top: 15px;
+}
+
+.input__control{
+    color: #ddd;
+    background-color: #1c1a1a;
+    border: none;
+    align-items: center;
+    margin-left: 20px;
+    opacity: 0.8;
+    font-weight: 600;
+}
+
+.submit__form{
+    margin-top: 25px;
+    width: 100%;
+    height: 40px;
+    background-color: #1a5cac;
+    border: none;
+    text-transform: uppercase;
+    color: white;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.submit__form:hover{
+    transform: scale(1.05);
+}

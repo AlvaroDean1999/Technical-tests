@@ -1,0 +1,131 @@
+html{
+    font-size: 10px;
+}
+
+body{
+    font-family: sans-serif;
+    font-size: 1.6rem;
+}
+
+.mainContent{
+    max-width: 62rem;
+    margin: 0 auto;
+}
+
+.logo__mainContent {
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.photo__logo{
+    width: 30px;
+    height: 30px;
+}
+
+.text__logo{
+    margin-left: auto;
+    color: blue;
+    font-weight: 700;
+}
+
+.formContainer__mainContent{
+    margin-top: 3rem;
+    
+}
+
+.input__form{
+    width: 68%;
+    height: 3rem;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    background-color: beige;
+}
+
+.input__form::placeholder{
+    text-align: center; 
+    color: black; 
+    font-weight: 700;
+}
+
+.select__form{
+    width: 28%;
+    margin-left: auto;
+    height: 4rem;
+    border-radius: 10px;
+    padding: 5px;
+    border: none;
+    background-color: beige;
+    margin-left: 1.5%;
+}
+
+.select__form option{
+    text-align: center; 
+    color: black; 
+    font-weight: 700;
+}
+
+.content__mainContent{
+    margin-top: 5rem;
+}
+
+.header__mainContent{
+    display: flex; 
+    justify-content: space-between; 
+    align-items: center; 
+}
+
+.logo__header{
+    width: 50px;
+    height: 50px;
+    margin-left: 3%;
+}
+
+.tittle__header{
+    font-weight: 1000;
+}
+
+.h3__subtittle{
+    text-align: center;
+}
+
+.listContainer__mainContent{
+    margin-top: 5rem;
+}
+
+.item__list{
+    margin-bottom: 3rem;
+    margin-left: 2rem;
+    opacity: 0.8;
+}
+
+.item__list span{
+    color: blue;
+    font-weight: 700;
+}
+
+.sinonyms__mainContent{
+    margin-top: 3rem;
+}
+
+.text__synonyms{
+    color: gray;
+    opacity: 0.5;
+    font-weight: 700;
+}
+
+.span__sinonyms{
+    color: blue;
+    font-weight: 700;
+    opacity: 1; 
+}
+
+.footer__mainContent{
+    margin-top: 3rem;
+}
+
+.text__footer{
+    color: gray;
+    opacity: 0.5;
+}

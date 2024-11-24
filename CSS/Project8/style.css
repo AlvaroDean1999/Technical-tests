@@ -1,0 +1,111 @@
+:root{
+    --principal: #151932; 
+    --secundary: #99f870; 
+    --background: #b0b3d9; 
+}
+
+html{
+    font-size: 10px;
+}
+
+*{
+    margin: 0; 
+    padding: 0;
+}
+
+body{
+    font-family: 'montserrat';
+    width: 100%;
+    background-color: var(--background);
+    height: 750px;
+}
+
+.main{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cronoContainer__main{
+    background-color: var(--principal);
+    padding: 1%; 
+    margin-top: 10%;
+    border-radius: 100%;
+    height: 280px;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+}
+
+.cronoContainerBorder{
+    border: solid var(--secundary) 6px;
+    padding: 60px;
+    border-radius: 100%;
+    border-left: none;
+}
+
+.minutes__cronoContainer h1{
+    color: white; 
+    font-size: 6rem;
+    opacity: 0.8;
+    text-align: center;
+}
+
+.buttons__cronoContainer{
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around; 
+    margin-top: 20px;
+}
+
+.button__buttons{
+    width: auto;
+    padding: 8px; 
+    color: var(--principal);
+    background-color: #99f870;
+    border: none;
+    border-radius: 5px;
+    font-weight: 700;
+    cursor: pointer;
+}
+
+.button__buttons:hover{
+    transform: scale(1.1);
+}
+
+.modes__main{
+    margin-top: 40px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    width: 300px;
+    background-color: var(--principal); 
+    border-radius: 25px;
+    padding: 7px;
+    align-items: center;
+}
+
+.item__modesGreen{
+    background-color: var(--secundary);
+    padding: 11px;
+    border-radius: 25px;
+}
+
+.item__modesGreen p{
+    color: var(--principal);
+    font-size: 1.2rem;
+    font-weight: 600;
+}
+
+.item__modesBlack{
+    padding: 11px;
+}
+
+.item__modesBlack p{
+    color: white; 
+    font-size: 1.2rem;
+    font-weight: 600;
+    opacity: 0.8;
+}
+
